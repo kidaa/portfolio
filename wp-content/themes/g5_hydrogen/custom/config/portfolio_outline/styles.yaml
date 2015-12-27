@@ -1,0 +1,13 @@
+preset: preset1
+footer:
+  background: '#575757'
+  text-color: '#ebebeb'
+main:
+  text-color: '#575757'
+base:
+  text-color: '#575757'
+  body-font: 'family=Roboto:300'
+  heading-font: 'family=Roboto+Slab:700'
+accent:
+  color-1: '#bdbdbd'
+  color-2: '#00b9f7'

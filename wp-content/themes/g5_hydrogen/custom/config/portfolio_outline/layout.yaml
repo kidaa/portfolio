@@ -1,0 +1,67 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/2-col-left.png'
+  name: 2_column_-_left
+  timestamp: 1446065849
+layout:
+  /header/: {  }
+  /navigation/: {  }
+  /container-7050/:
+    -
+      -
+        'sidebar 20':
+          -
+            - logo-9821
+          -
+            - custom-8168
+      -
+        'main 80':
+          -
+            - system-content-6766
+  /footer/:
+    -
+      - position-position-4249
+    -
+      - 'copyright-3119 40'
+      - 'spacer-1046 30'
+      - 'branding-3011 30'
+  offcanvas: {  }
+structure:
+  header:
+    attributes:
+      id: g-header
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      id: g-navigation
+      boxed: ''
+  sidebar:
+    type: section
+    attributes:
+      class: ''
+    block:
+      id: nav-sidebar
+  main:
+    attributes:
+      id: g-main
+  container-7050:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      id: g-footer
+      boxed: ''
+  offcanvas:
+    attributes:
+      id: g-offcanvas
+content:
+  custom-8168:
+    title: 'Custom HTML'
+    attributes:
+      html: "[mega_main_menu location=\"mega_main_sidebar_menu\"][/mega_main_menu]\n"
+      filter: '1'
+  position-position-4249:
+    title: Footer
+    attributes:
+      key: footer

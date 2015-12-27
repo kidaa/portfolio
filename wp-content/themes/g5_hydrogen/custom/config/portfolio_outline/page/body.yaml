@@ -1,0 +1,5 @@
+doctype: html
+attribs:
+  class: 'gantry body'
+layout:
+  sections: '2'
